@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
+import { lazy, Suspense } from 'react'
 import Home from './routes/Home'
-import About from './routes/About'
+
+const About = lazy(() => import ('./routes/About'))
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -13,7 +15,13 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Home />}></Route>
-      <Route path='/about' element={<About />}></Route>
+      <Route
+        path='/about'
+        element={
+          <Suspense fallback={<div>Loading about...</div>}>
+            <About/>
+          </Suspense>
+        }></Route>
     </Routes>
     {/* <div>
       <a href="https://vite.dev" target="_blank">
