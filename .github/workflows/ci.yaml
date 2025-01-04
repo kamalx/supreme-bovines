@@ -17,3 +17,6 @@ jobs:
           version: latest
       - run: pnpm install
       - run: pnpm test
+      - name: Trigger Netlify Build
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/67798fa052c810625600c960
