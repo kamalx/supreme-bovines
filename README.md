@@ -1,4 +1,10 @@
-Cows and Bulls is a game...
+Cows and Bulls [is a game...](https://en.wikipedia.org/wiki/Bulls_and_cows)
+
+This is a basic number version of the game with terrible UX.
+But behold, there will be updates, and you shall
+[enjoy playing it](https://supreme-bovines-1.netlify.app/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dff41c5a-1a96-41f8-91f7-239c50f7c2f5/deploy-status)](https://app.netlify.com/sites/supreme-bovines-1/deploys)
 
 This project uses react + vite.
 
@@ -12,8 +18,3 @@ Ref:
 This project was an experiment with deepseek, and it was a delightful experience
 of discovering something I was unfamiliar with with the help of a new opensource
 ai model that I was trying out.
-
-The conversation in which deepseek helped me write this code is linked below for
-my future reference:
-
-https://chat.deepseek.com/a/chat/s/3e3d128b-450f-432e-9465-bf53ba5da48f
