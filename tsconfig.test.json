@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json", // Extend the base config
+  "compilerOptions": {
+    "types": ["@testing-library/jest-dom"],
+    "jsx": "react-jsx", // Ensure JSX is properly configured
+    "module": "ESNext", // Use ESM for compatibility with Vite
+    "target": "ES6", // Target modern JavaScript
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable ES module interop
+    "skipLibCheck": true // Skip library checks for faster builds
+  },
+  "include": ["src/__tests__/**/*.test.ts", "src/__tests__/**/*.test.tsx", "src/types/*"] // Include test files
+}
