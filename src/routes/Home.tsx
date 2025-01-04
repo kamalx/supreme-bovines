@@ -68,6 +68,7 @@ const Home = () => {
     <>
       <h3>Cows and Bulls</h3>
       <p>Guess my 4-digit number. No repeating digits</p>
+      <p><a href="/about">What is this?</a></p>
       <form onSubmit={handleGuess}>
         <input
           type="text"
