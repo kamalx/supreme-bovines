@@ -71,7 +71,7 @@ const Home = () => {
       <p><a href="/about">What is this?</a></p>
       <form onSubmit={handleGuess}>
         <input
-          type="text"
+          type="number"
           value={guess}
           onChange={(e) => setGuess(e.target.value)}
           maxLength={4}
