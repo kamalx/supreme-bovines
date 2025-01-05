@@ -67,8 +67,7 @@ const Home = () => {
   return (
     <>
       <h3>Cows and Bulls</h3>
-      <p>Guess my 4-digit number. No repeating digits</p>
-      <p><a href="/about">What is this?</a></p>
+      <p>Guess my 4-digit number.<br />No repeating digits</p>
       <form onSubmit={handleGuess}>
         <input
           type="number"
@@ -76,6 +75,7 @@ const Home = () => {
           onChange={(e) => setGuess(e.target.value)}
           maxLength={4}
           placeholder='Enter your guess' />
+        <p className="about-game"><a href="/about">What is this?</a></p>
         <button type="submit">Submit</button>
       </form>
 

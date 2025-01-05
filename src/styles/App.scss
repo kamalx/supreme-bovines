@@ -9,6 +9,17 @@ body * {
   box-sizing: inherit;
 }
 
+p {
+  font-size: 0.9em;
+}
+
+.about-game {
+  &, p {
+    font-size: 11px;
+    text-align: left;
+  }
+}
+
 input {
   display: block;
   font-size: 1em;

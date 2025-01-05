@@ -1,6 +1,6 @@
 Cows and Bulls [is a game...](https://en.wikipedia.org/wiki/Bulls_and_cows)
 
-This is a basic number version of the game with terrible UX.
+This is a basic numerical version of the game with terrible UX.
 But behold, there will be updates, and you shall
 [enjoy playing it](https://supreme-bovines-1.netlify.app/).
 
@@ -8,7 +8,7 @@ But behold, there will be updates, and you shall
 
 This project uses react + vite.
 
-This was an learning experiment that has so far gone pretty good.
+This was a learning experiment that has so far gone pretty good.
 It includes a react app started from scratch using one of the pnpm
 create commands for react projects that I am forgetting...
 
