@@ -4,7 +4,9 @@ function About() {
     <h3>Welcome to the game of Cows and Bulls!</h3>
     <div className="about-game">
       <p>
-        The game of cows and bulls is a code-breaking, guessing game, where
+        The game of <a target="_blank" rel="noopener"
+          href="https://en.wikipedia.org/wiki/Bulls_and_cows">cows and bulls </a>
+        is a code-breaking, guessing game, where
         one player (computer in this case), selects a number or word of specified
         length (4 for this game) and another player guesses to find that number or word.
         After every guess, the player who is guessing is given feedback in terms or how many
