@@ -3,9 +3,6 @@ import { lazy, Suspense } from 'react'
 import Home from './routes/Home'
 
 const About = lazy(() => import ('./routes/About'))
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
 import './styles/App.scss'
 
 function App() {
