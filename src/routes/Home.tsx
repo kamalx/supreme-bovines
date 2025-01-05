@@ -74,8 +74,8 @@ const Home = () => {
           value={guess}
           onChange={(e) => setGuess(e.target.value)}
           maxLength={4}
-          placeholder='Enter your guess' />
-        <p className="about-game"><a href="/about">What is this?</a></p>
+          placeholder='guess' />
+        <p className="help center"><a href="/about">What is this?</a></p>
         <button type="submit">Submit</button>
       </form>
 

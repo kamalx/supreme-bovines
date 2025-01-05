@@ -20,7 +20,7 @@ describe('Cows and Bulls Game', () => {
 
   it('renders the game and handles guesses', () => {
     render(<Home />);
-    const input = screen.getByPlaceholderText('Enter your guess');
+    const input = screen.getByPlaceholderText('guess');
     const button = screen.getByText('Submit');
 
     // Enter an invalid guess

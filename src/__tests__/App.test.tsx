@@ -15,14 +15,4 @@ describe('App Component', () => {
     const homeElement = screen.getByText('cows and bulls', {exact: false});
     expect(homeElement).toBeInTheDocument();
   });
-
-  // it('renders About component for /about route', () => {
-  //   render(
-  //     <MemoryRouter initialEntries={['/about']}>
-  //       <App />
-  //     </MemoryRouter>
-  //   );
-  //   const aboutElement = screen.getByText('Welcome to the game of Cows and Bulls!');
-  //   expect(aboutElement).toBeInTheDocument();
-  // });
 });
