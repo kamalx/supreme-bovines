@@ -35,7 +35,7 @@ const Home = () => {
     setAttempts(attempts + 1)
 
     if(bulls === 4) {
-      setMessage(`Congratulations! You guessed it in ${attempts + 1} attempts.`)
+      setMessage(`Congratulations! You guessed ${secretNumber} in ${attempts + 1} attempts.`)
       resetGame()
     } else {
       setMessage(`${bulls} bulls and ${cows} cows. Another guess?`)
